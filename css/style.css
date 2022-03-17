@@ -122,6 +122,9 @@ body {
   transform: scale(1.05);
   background: linear-gradient(135deg, #ffd6d6, #fabdbd);
 }
+.form-group button span {
+  display: none;
+}
 .form-group #error {
   display: none;
   position: absolute;
@@ -213,6 +216,14 @@ body {
   }
 }
 @media (min-width: 1150px) {
+  body {
+    background: white;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-position: top left;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+  }
+
   .content-wrapper {
     display: flex;
   }

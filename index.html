@@ -37,7 +37,7 @@
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
-        <div class="form" aria-label="form">
+        <div class="form" roll="form">
           <div class="form-group">
             <input type="text" id="email" name="email" placeholder=" " class="form-input">
 
@@ -45,7 +45,7 @@
               Email Address
             </label>
             <span id="error-icon"></span>
-            <button onClick={sendMail()}></button>
+            <button onClick={sendMail()}><span>Send</span></button>
             <div id="error"><small>Please provide a valid email.</small></div>
             <div id="success"><small>Thanks for signing up!</small></div>
 
